@@ -1,0 +1,43 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box ;
+    -ms-box-sizing: border-box ;
+    box-sizing: border-box;
+}
+
+
+
+
+h1 {
+    font-family: 'Comfortaa', 'Century Gothic', Arial;
+    font-size: 18px%;
+    line-height: 1.6em;
+    letter-spacing: .5px;
+    font-weight: 100;
+    color: #6990a7;
+
+}
+
+h4 {
+    font-family: 'Comfortaa', 'Century Gothic', Arial;
+    font-size: 12px%;
+    line-height: 1.6em;
+    letter-spacing: .5px;
+    font-weight: 100;
+    color: #6990a7;
+
+}
+
+
+
+body {
+    margin: 30;
+    padding: 5;
+    background: #f6f6f6;
+    font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #303030;
+    max-width: 80%;
+
+}
