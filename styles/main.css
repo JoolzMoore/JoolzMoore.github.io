@@ -10,7 +10,7 @@
 }
 /* container image and blog heading */
 
-.container-blog{
+.container-blog {
     display: flex;
     flex-direction: column;
     overflow: hidden;
