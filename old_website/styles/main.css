@@ -1,0 +1,121 @@
+/* nav style */
+
+.nav {
+    width: 100%;
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    letter-spacing: 0.4em;
+
+}
+/* container image and blog heading */
+
+.container-blog {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width:  100%;
+    background-color: black;
+    margin: 5%;
+    padding-bottom: 50px;
+}
+.container-img {
+    flex-direction: column;
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    height:200px;
+}
+
+.container-fullpg-img {
+    align: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    height:300px;
+}
+
+
+/* elements */
+
+body {
+    font-family: Arial, Open Sans, sans serif;
+}
+
+p {
+    font-size:14px;
+    text-align: left;
+    letter-spacing: 0.0em;
+}
+
+h4{
+    text-align:center;
+}
+
+h5 {
+    text-decoration:none;
+    text-align: center;
+    font-size:16px;
+    letter-spacing: 0.2em;
+}
+h6 {
+    text-decoration:none;
+    text-align: center;
+    font-size:14px;
+}
+
+h7 {
+    text-align: center;
+    font-size:10px;
+}
+
+ul{
+    padding: 2rem;
+
+}
+
+li {
+    display: inline;
+    padding: 2rem;
+}
+
+a {
+    color: white;
+    text-decoration:none;
+}
+
+.contact-btn{
+    cursor: pointer;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    width: 100px;
+    text-align: center;
+}
+
+
+.contact-btn a {
+    position:relative; cursor: pointer;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    letter-spacing: 0.4em;
+    text-align: center;
+}
+
+.contact-btn a:active {
+    top: 2px;
+    text-align: center;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    letter-spacing: 0.3em;
+    font-size: 10px;
+}
