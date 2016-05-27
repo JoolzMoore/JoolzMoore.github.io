@@ -1,11 +1,4 @@
 /*landing page*/
-body {
-    background-image: url("images/KKcropped163_6396.jpg");
-    background-repeat; no-repeat;
-    background-color: white;
-}
-
-
 #landing-page {
   width:100%;
   background: linear-gradient(
@@ -21,7 +14,7 @@ body {
   background-attachment; scroll;
  /* Scale the background image to be as large as possible */
   background-size: cover;
-  content: center;
+  content: center;*/
 
 
   -webkit-transition: opacity 0.4s ease-out;
@@ -31,8 +24,26 @@ body {
   transition: opacity 0.4s ease-out;
 }
 
+*{
+  font-family: Lato, sans-serif;
+}
+
+body {
+  background-image: url("images/KKcropped163_6396.jpg");
+  background-repeat; no-repeat;
+  background-color: black;
+  text-align: center;
+  font-size: 12pt;
+  color: white;
+  line-height: 1.4em;
+  background: black;
+  position: relative;
+  margin-left: 40px;
+  margin-right: 40px
+  letter-spacing: 2px;
+}
+
 .nav {
-    font-family: 'Raleway', sans-serif;
     text-decoration: none;
     font-weight: bold;
     text-align:right;
@@ -44,9 +55,26 @@ body {
     background-color: black;
   }
 
-
 h1 {
   color: white;
+  }
+
+h4 {
+  font-weight: 100;
+  letter-spacing: .5rem;
+  font-size:120%
+}
+
+.h5 {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align:right;
+    text-transform:uppercase;
+    font-size:12px;
+    letter-spacing: .5rem;
+    margin-top: 2px;
+    padding-left: 30px;
   }
 
 .button {
@@ -64,44 +92,51 @@ h1 {
   text-align: center;
   padding: 3;
 }
-.landing-pg-button {
+/*.landing-pg-button {
   margin-top: 15%;
 }
 .stand-pg-button {
   margin-top: 5%;
-}
+}*/
 
 .alt-button:hover {
   color: white;
   border-color: hsl(80%, 5%, 29%);
 }
-
-
-/*av.image ul li {
-  float: none;
-  display: list-item;
-  border-bottom: 1px solid white;
-  background-color: rgba(255, 255, 255, 0.3)
-}*/
-/*
-nav.primary ul ul li a {
-  display: block;
-  line-height: 35px;
-  text-transform: none;
+.blog_image {
+  margin: auto;
+  float: center;
+  padding: 10px;
+  max-height: 180px
+  max-width: 230px;
 }
+
+.circular_img{
+  width:250px;
+  height: 250px;
+  border-radius: 150px;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px;
+  border-radius: 125px;
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+/*  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);*/
+  }
+
 
 nav.primary ul li:hover > a {
   background-color: rgba(255, 255, 255, 0.3)
 }*/
-
 
 #text-container {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 2%;
   text-align: left;
-  ;/*hsl(210, 100%, 50%);*/
-  /*opacity: 0.5;*/
   width: 30.6666666667%;
   margin-top: 10%;
   margin-top: 5%;
@@ -110,7 +145,7 @@ nav.primary ul li:hover > a {
 #heading {
   position: absolute;
   text-align: center;
-  top: 50px;
+  top: 40px;
   left: 0;
   width: 100%;
   letter-spacing: .5rem;
@@ -128,8 +163,8 @@ nav.primary ul li:hover > a {
 #bottom-text-container {
 }
 
-body {
-  background-color: black;
+.blogbody {
+  text-align: left;
 }
 
 .main-text {
@@ -157,11 +192,13 @@ body {
 
 p {
     font-family: 'Neuzeit', sans-serif;
-    font-size: 10pt;
+    font-size: 12pt;
     color: white;
     line-height: 1.4em;
     background: black;
     position: relative;
+    margin-left: 20px;
+    margin-right: 20px
     min-height: 100%;
     webkit-font-smoothing: antialiased;
     background-color: black;
@@ -174,18 +211,23 @@ li {
     padding: 14px 16px;
     text-decoration: none;
 }
-
+/*
 .blogimage {
       display: inline-block;
-}
+}*/
 
 .blogs {
     text-color: white;
 }
 
-.blogs a {
+.description a {
     color: white;
     text-decoration: underline;
+}
+
+.blog-section {
+  border-width: 3px;
+  border-color: white;
 }
 
 /*
@@ -213,21 +255,7 @@ li {
 }
 .footcontacts{
       display: inline-block;
-
 }
-
-.h5 {
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-    color: #FFFFFF;
-    font-weight: bold;
-    text-align:right;
-    text-transform:uppercase;
-    font-size:75%;
-    letter-spacing: .5rem;
-     margin-top: 2px;
-    padding-left: 30px;
-  }
 
 
 .one-half.column p{
@@ -261,7 +289,7 @@ footer {
   }
 
 .disclaimer{
-  font-size: 8pt;
+  font-size: 9pt;
 }
   .contacticon {
   width: 10%;
