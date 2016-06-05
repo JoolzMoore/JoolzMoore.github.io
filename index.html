@@ -1,19 +1,152 @@
-
 <!DOCTYPE html>
-<html>
-  <head>
-    <title></title>
-    <!-- Page Meta -->
-      <meta charset="UTF-8">
-      <link href="../home2_files/normalize.css" rel="stylesheet" type="text/css">
-      <link href="../home2_files/skeleton.css" rel="stylesheet" type="text/css">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css">
-      <link href="../styles/main.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-  <body>
-              <!-- Navigation -->
+<!-- saved from url=(0068)file:///home/dev/Documents/workspace/JoolzMoore.github.io/home2.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Joolz's workspace</title>
+<!-- Page meta -->
 
-  </body>
+            <link href="./home2_files/normalize.css" rel="stylesheet" type="text/css">
+            <link href="./home2_files/skeleton.css" rel="stylesheet" type="text/css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css">
+            <link href="styles/main.css" rel="stylesheet" type="text/css">
+<!-- Mobile specific meta -->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+<!-- Navigation-->
+ <!-- .container is main centered wrapper -->
+<div class="twelve columns">
+  <div class="nav">
+<!--     <div class="container">-->
+      <div class="row">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#blog-anchor">BLOGS</a></li>
+          <li><a href="#contact-anchor">CONTACT</a></li>
+         </ul>
+      </div>
+<!--</div>-->
+  </div>
+</div>
+
+
+ <!-- Landing page -->
+  <div class="image" id="landing-page">
+    <img src="images/KK163_6396.jpg" alt="">
+    <div id="text-container">
+      <div id="heading"> What does <br>collaborative
+       web dev <br>learning look like? <br><br>
+        <a class="button stand-pg-button" href="#blog-anchor">MORE HERE</a>
+    </div>
+  </div>
+</div>
+
+   <!-- body text-->
+<br>
+<br>
+<br>
+<a name="blog-anchor"></a>
+<br>
+<div> <h4>Some useful insight <br>from the course   <br><br></h4>
+
+     <!--blog 1 -->
+  <div class="blogs">
+      <div class="blog-section" style="display: flex">
+          <img class="circular_img"src="http://images.inc.com/uploaded_files/image/1940x900/reflection-in-street-puddle-1940x900_29035.jpg"  alt=""/>
+      </div>
+      <div class ="description"><br><strong>CULTURE </strong>BLOG <strong>1:</strong><a  href="cult1-reflection-blog.html"><br> Reflections </a><br><br>
+      </div>
+             <!--blog 2 -->
+      <div class="blog-section" style="display: flex">
+          <img class="circular_img" src="http://www.masslib.net/wp-content/uploads/2013/03/changing-habits.gif"  alt=""/>
+      </div>
+      <div class="description"> <br><strong>CULTURE </strong>BLOG <strong>2:</strong> <a href="cult2-time-and-habits.html"><br>Time and habits</a><br><br>
+      </div>
+          </div>
+             <!--blog 3-->
+      <div class="blog-section" style="display: flex">
+          <img class="circular_img" src="http://cdn.collider.com/wp-content/uploads/cirque-du-soleil-slice-01.jpg"  alt=""/>
+      </div>
+      <div class="description"><br><strong>TECH </strong>BLOG <strong>1:</strong> <a href="t2-html-css-dom-p1.html"> <br>HTML, CSS, the DOM and boxification </a><br><br>
+      </div>
+          <!--blog 4-->
+      <div class="blog-section" style="display: flex">
+          <img class="circular_img"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEpkLo-WiHwd3BPSRDVcHXRm8YPeTJaHwIliUkP08TVlDTDEc"  alt=""/>
+      </div>
+      <div class="description"><br><strong>TECH </strong>BLOG <strong>2:</strong> <a href="t2-html-css-dom-p2.html"> <br>Grid design, responsive sites and semantic structure </a> <br><br>
+      </div>
+           <!--blog 5-->
+      <div class="blog-section" style="display: flex">
+          <img class="circular_img" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRpfodu3jM0kO2-hkdknkfvkxFBgwEi7dniGAJk54kbmmdR86RLVQ"  alt=""/>
+      </div>
+      <div class="description"><br><strong>CULTURE </strong>BLOG <strong>3:</strong>  <a href="c2-emotional-intelligence.html"> <br>Emotional intelligence </a><br><br>
+      <br>
+      <br>
+      </div>
+  </div>
+
+<br>
+<br>
+<!--contact-->
+
+<a name="contact-anchor"></a>
+<form>
+  <div class= "contact-form">
+    <div class="row">
+      <div class="six columns">
+        <label for="exampleEmailInput">Your email</label>
+        <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+      </div>
+      <div class="six columns">
+        <label for="exampleRecipientInput">Reason for contacting</label>
+        <select class="u-full-width" id="exampleRecipientInput">
+          <option value="Option 1">Question</option>
+          <option value="Option 2">Admiration</option>
+          <option value="Option 3">Can I get your number?</option>
+        </select>
+      </div>
+    </div>
+    <label for="exampleMessage">Message</label>
+    <textarea class="u-full-width" placeholder="Hi Joolz …" id="exampleMessage"></textarea>
+    <label class="example-send-yourself-copy">
+      <input type="checkbox">
+      <span class="label-body">Send a copy to yourself</span>
+    </label>
+    <input class="button-primary" type="submit" value="Submit">
+  </div>
+</form>
+
+<!--footer-->
+<div class="container">
+  <div class="twelve columns">
+   <div class = "foot-info">
+ <!--footer logo box-->
+    <div class="one-half column">
+       BUILT BY: <br><br>
+          <img src="images/MOORE2IT_logo_website_imageWeb.jpg" height=40% width=40% alt="" ><br>
+    </div>
+ <!--footer info box-->
+    <div class="one-half.column">
+      <div class="foot-contacts">
+        <a class="foot-link" href="http://devacademy.co.nz/" target="_blank">EDA Auckland: </a><br>
+        <a class="foot-info">Nikau 2016 cohort</a><br>
+        <div class="disclaimer"><strong>Disclaimer: </strong>Learning by doing in progress here!
+        <br>
+        <br>
+        </div>
+          <div class="row">
+            <ul style="list-style-type: none">
+              <li class="contact-info"><a href="mailto:joolz.moore@gmail.com"><i class="fa fa-envelope-square fa-3x" style="color: white;">  </i></a></li>
+              <li class="contact-info"><a href="tel:+640210732856"><i class="fa fa-phone-square fa-3x" style="color: white;"></i></a></li>
+              <li class="contact-info"><a href="https://github.com/JoolzMoore" target="_blank"><i class="fa fa-github-square fa-3x" style="color: white;"> </i></a></li>
+              <li class="contact-info"><a href="https://www.linkedin.com/in/julia-moore-27455576" target="_blank"><i class="fa fa-linkedin-square fa-3x" style="color: white;"></i></a></li>
+        </div>
+      </div>
+    </div>
+   </div>
+  </div>
+</div>
+</body>
 </html>
