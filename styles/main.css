@@ -94,17 +94,21 @@ text-align: center;
   top: 30px;
   height: 45px;
   line-height: 38px;
-  font-size: 12px;
   letter-spacing: .5rem;
   color: white;
   border-width: 3px;
   border-color: white;
-  margin-left: auto;
-  margin-right: auto;
-  width: 180px;
+  margin-left: 35%;
+  margin-right: 35%;
   text-align: center;
-  padding: 3;
   transition-duration: 0.5s;
+}
+
+.button-text {
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+
 }
 
 a :hover {
@@ -253,13 +257,12 @@ h4 {
 
 /* Contact page */
 
-.bio {
-  margin: 20px;
-  text-align: center;
+label {
+  color: white;
 }
 
 .contact-form {
-  margin: 20px;
+  margin: 20%;
 }
 /* Footer */
 
